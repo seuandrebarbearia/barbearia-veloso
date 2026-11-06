@@ -4,7 +4,7 @@ Site institucional em HTML5, CSS3 e JavaScript puro para apresentação da Barbe
 
 ## Observações importantes
 
-- O número de WhatsApp foi configurado inicialmente com `5549999521602`, conforme a orientação do briefing. Essa função precisa ser validada antes da publicação, para confirmar se o contato recebe mensagens por esse canal.
+- O número `5549999521602` foi validado pela barbearia como contato de WhatsApp.
 - Os textos, estrutura e proposta visual foram desenvolvidos originalmente para a Veloso, sem copiar marcas, textos ou layout de competidores.
 - A página foi construída com foco em acessibilidade, navegação por teclado, menu móvel, modal de galeria e integração com WhatsApp e rota do Google Maps.
 
