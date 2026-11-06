@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Barbearia Veloso — corte, barba e cuidado com cada detalhe em Bom Retiro, Santa Catarina."
+    />
+    <title>Barbearia Veloso | Bom Retiro / SC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Ir para o início">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 80 80" role="img" aria-label="Marca estilizada da Barbearia Veloso">
+              <path d="M10 52.5L40 18l30 34.5-7.4 4.6L40 31.3 17.4 57.1 10 52.5Zm18.8-1.8h22.4v6.3H28.8v-6.3Zm6.2-18.2 5 6.4 5-6.4h4.8l-9.8 12.2-9.8-12.2h4.8Z"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <strong>VELOSO</strong>
+            <small>BARBEARIA</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Menu principal">
+          <a href="#top">Início</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#barbearia">A Barbearia</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#localizacao">Localização</a>
+        </nav>
+
+        <a class="button button-primary nav-cta whatsapp-link" href="#" data-message-type="general">
+          Agendar pelo WhatsApp
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <nav aria-label="Menu móvel">
+          <a href="#top">Início</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#barbearia">A Barbearia</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#localizacao">Localização</a>
+          <a class="button button-primary whatsapp-link" href="#" data-message-type="general">Agendar pelo WhatsApp</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Apresentação da barbearia">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">BARBEARIA VELOSO • BOM RETIRO / SC</p>
+            <h1>Seu estilo começa com um bom corte.</h1>
+            <p class="lead">
+              Corte, barba e cuidado com cada detalhe. Conheça a Barbearia Veloso, no Centro de Bom Retiro.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary whatsapp-link" href="#" data-message-type="general">Agendar pelo WhatsApp</a>
+              <a class="button button-secondary" href="#servicos">Conhecer os serviços</a>
+            </div>
+            <p class="address-inline">Av. 24 de Outubro, 560 - Centro, Bom Retiro - SC</p>
+          </div>
+
+          <aside class="hero-card reveal" aria-label="Resumo de atendimento">
+            <span class="card-kicker">Atendimento</span>
+            <h2>Estilo com atenção aos detalhes.</h2>
+            <ul>
+              <li>Segunda a sexta: 08h às 19h</li>
+              <li>Sábado: 08h às 12h</li>
+              <li>Domingo: fechado</li>
+            </ul>
+            <a class="inline-link" href="#localizacao">Ver localização</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="services section-spacing" id="servicos" aria-labelledby="servicos-title">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow accent">Serviços</p>
+            <h2 id="servicos-title">Atendimento pensado no seu visual.</h2>
+          </div>
+
+          <div class="service-list" id="serviceList" aria-live="polite">
+            <article class="service-card reveal" data-service-card>
+              <span class="service-tag">Corte</span>
+              <h3>Corte masculino</h3>
+              <p>Clássico ou moderno, com atenção ao acabamento.</p>
+              <div class="service-meta">
+                <strong>R$ 40,00</strong>
+                <a class="button button-primary whatsapp-link" href="#" data-message-type="corte masculino">Consultar</a>
+              </div>
+            </article>
+
+            <article class="service-card reveal" data-service-card>
+              <span class="service-tag">Barba</span>
+              <h3>Barba</h3>
+              <p>Desenho e alinhamento para valorizar seu visual.</p>
+              <div class="service-meta">
+                <strong>R$ 30,00</strong>
+                <a class="button button-primary whatsapp-link" href="#" data-message-type="barba">Consultar</a>
+              </div>
+            </article>
+
+            <article class="service-card highlight reveal" data-service-card>
+              <span class="service-tag">Combo</span>
+              <h3>Corte + barba</h3>
+              <p>O cuidado completo para renovar o estilo.</p>
+              <div class="service-meta">
+                <strong>R$ 65,00</strong>
+                <a class="button button-primary whatsapp-link" href="#" data-message-type="corte + barba">Consultar</a>
+              </div>
+            </article>
+          </div>
+
+          <p class="pricing-note reveal" id="pricingNote">Preços ilustrativos para demonstração. Confirme os valores com a barbearia.</p>
+        </div>
+      </section>
+
+      <section class="about section-spacing" id="barbearia" aria-labelledby="barbearia-title">
+        <div class="container about-grid">
+          <div class="about-visual reveal">
+            <img
+              src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=1200&q=80"
+              alt="Interior de uma barbearia em ambiente elegante e moderno"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow accent">A Barbearia</p>
+            <h2 id="barbearia-title">Um espaço para cuidar do seu estilo.</h2>
+            <p>
+              A Barbearia Veloso atua no Centro de Bom Retiro, com atendimento focado em cortes, barba e acabamento com atenção aos detalhes. O ambiente foi pensado para oferecer um momento simples, profissional e acolhedor.
+            </p>
+            <p>
+              Com localização central e fácil acesso, a barbearia se destaca pela praticidade de atendimento e pela atenção ao visual de cada cliente.
+            </p>
+            <div class="about-actions">
+              <a class="button button-primary whatsapp-link" href="#" data-message-type="general">Fale com a Veloso</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-spacing" id="galeria" aria-labelledby="galeria-title">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow accent">Galeria</p>
+            <h2 id="galeria-title">Visual que transmite cuidado e personalidade.</h2>
+          </div>
+          <div class="gallery-grid" aria-label="Galeria ilustrativa de cortes e ambiente">
+            <button class="gallery-item reveal" type="button" data-image="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80" data-caption="Imagens ilustrativas — corte masculino" aria-label="Ampliar imagem do corte masculino">
+              <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80" alt="Corte masculino em ambiente moderno" loading="lazy" />
+            </button>
+            <button class="gallery-item reveal" type="button" data-image="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80" data-caption="Imagens ilustrativas — barba e acabamento" aria-label="Ampliar imagem de barba e acabamento">
+              <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80" alt="Barba e acabamento com cuidado"
+              loading="lazy" />
+            </button>
+            <button class="gallery-item reveal" type="button" data-image="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=80" data-caption="Imagens ilustrativas — ambiente de barbearia" aria-label="Ampliar imagem do ambiente de barbearia">
+              <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=900&q=80" alt="Ambiente de barbearia com cadeiras e espelhos" loading="lazy" />
+            </button>
+            <button class="gallery-item reveal" type="button" data-image="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80" data-caption="Imagens ilustrativas — visual masculino" aria-label="Ampliar imagem de visual masculino">
+              <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80" alt="Cliente com visual masculino bem cuidado" loading="lazy" />
+            </button>
+            <button class="gallery-item reveal" type="button" data-image="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80" data-caption="Imagens ilustrativas — corte moderno" aria-label="Ampliar imagem de corte moderno">
+              <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=80" alt="Corte moderno em barbearia" loading="lazy" />
+            </button>
+            <button class="gallery-item reveal" type="button" data-image="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=80" data-caption="Imagens ilustrativas — detalhe da fachada" aria-label="Ampliar imagem da fachada">
+              <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=80" alt="Fachada de barbearia em ambiente urbano" loading="lazy" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="hours section-spacing" id="horarios" aria-labelledby="horarios-title">
+        <div class="container hours-shell reveal">
+          <div class="section-head left">
+            <p class="eyebrow accent">Horários</p>
+            <h2 id="horarios-title">Quando você pode nos encontrar.</h2>
+          </div>
+
+          <div class="hours-layout">
+            <table class="hours-table" aria-label="Tabela de horários de atendimento">
+              <tbody>
+                <tr data-day="1"><th>Segunda</th><td>08h às 19h</td></tr>
+                <tr data-day="2"><th>Terça</th><td>08h às 19h</td></tr>
+                <tr data-day="3"><th>Quarta</th><td>08h às 19h</td></tr>
+                <tr data-day="4"><th>Quinta</th><td>08h às 19h</td></tr>
+                <tr data-day="5"><th>Sexta</th><td>08h às 19h</td></tr>
+                <tr data-day="6"><th>Sábado</th><td>08h às 12h</td></tr>
+                <tr data-day="0"><th>Domingo</th><td>Fechado</td></tr>
+              </tbody>
+            </table>
+
+            <div class="hours-status">
+              <p id="hoursStatus" class="status-pill">Carregando horário...</p>
+              <p class="hours-disclaimer">Em feriados, confirme o atendimento pelo WhatsApp.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="location section-spacing" id="localizacao" aria-labelledby="localizacao-title">
+        <div class="container location-grid">
+          <div class="location-copy reveal">
+            <p class="eyebrow accent">Localização</p>
+            <h2 id="localizacao-title">Conveniente para quem está no Centro.</h2>
+            <address>
+              <p>Av. 24 de Outubro, 560 - Centro, Bom Retiro - SC</p>
+              <p>CEP: 88680-000</p>
+              <p><a href="tel:+5549999521602">(49) 99952-1602</a></p>
+            </address>
+            <div class="location-actions">
+              <a class="button button-primary" href="https://www.google.com/maps/dir/?api=1&destination=-27.7961293%2C-49.4877032&destination_place_id=ChIJRficnzNlIJURl33OWexMuJc" target="_blank" rel="noreferrer">Como chegar</a>
+              <a class="button button-secondary" href="https://www.google.com/maps/place/?q=place_id:ChIJRficnzNlIJURl33OWexMuJc" target="_blank" rel="noreferrer">Ver no Maps</a>
+            </div>
+            <p class="map-note">
+              Na data da consulta (06/11/2026), o perfil do Google Maps registrava nota 5,0 com 3 avaliações. Consulte as avaliações atuais no link do Maps.
+            </p>
+          </div>
+
+          <div class="map-frame reveal">
+            <iframe
+              title="Mapa da localização da Barbearia Veloso em Bom Retiro, Santa Catarina"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=-27.7961293,-49.4877032&z=15&output=embed"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section-spacing" aria-labelledby="cta-title">
+        <div class="container cta-card reveal">
+          <div>
+            <p class="eyebrow accent">Contato</p>
+            <h2 id="cta-title">Pronto para renovar o visual?</h2>
+            <p>Converse com a Barbearia Veloso e consulte os horários disponíveis.</p>
+          </div>
+          <a class="button button-primary massive whatsapp-link" href="#" data-message-type="general">Falar no WhatsApp</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand brand-footer" aria-label="Barbearia Veloso">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 80 80" role="img" aria-label="Marca abstrata da Barbearia Veloso">
+                <path d="M10 52.5L40 18l30 34.5-7.4 4.6L40 31.3 17.4 57.1 10 52.5Zm18.8-1.8h22.4v6.3H28.8v-6.3Zm6.2-18.2 5 6.4 5-6.4h4.8l-9.8 12.2-9.8-12.2h4.8Z"/>
+              </svg>
+            </span>
+            <span class="brand-text">
+              <strong>VELOSO</strong>
+              <small>BARBEARIA</small>
+            </span>
+          </div>
+        </div>
+
+        <div>
+          <p>Av. 24 de Outubro, 560 - Centro</p>
+          <p>Bom Retiro - SC</p>
+        </div>
+
+        <div>
+          <p><a href="tel:+5549999521602">(49) 99952-1602</a></p>
+          <p><a href="#top">Voltar ao início</a></p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Barbearia Veloso.</p>
+      </div>
+    </footer>
+
+    <a class="floating-whatsapp whatsapp-link" href="#" aria-label="Abrir conversa no WhatsApp" data-message-type="general">
+      <span>WhatsApp</span>
+    </a>
+
+    <div class="mobile-bar" aria-label="Ações rápidas no celular">
+      <a class="mobile-bar-item whatsapp-link" href="#" data-message-type="general">WhatsApp</a>
+      <a class="mobile-bar-item" href="https://www.google.com/maps/dir/?api=1&destination=-27.7961293%2C-49.4877032&destination_place_id=ChIJRficnzNlIJURl33OWexMuJc" target="_blank" rel="noreferrer">Como chegar</a>
+    </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox-backdrop" data-close="true"></div>
+      <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+        <button class="lightbox-close" type="button" aria-label="Fechar imagem ampliada">×</button>
+        <img id="lightboxImage" src="" alt="" />
+        <p id="lightboxTitle">Imagem ampliada</p>
+      </div>
+    </div>
+  </body>
+</html>
