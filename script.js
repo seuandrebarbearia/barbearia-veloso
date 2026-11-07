@@ -2,7 +2,7 @@ const config = window.barbeariaConfig || {};
 let closeLightbox = () => {};
 
 const openWhatsApp = (serviceName) => {
-  const baseMessage = "Olá! Vim pelo site da Barbearia Veloso e gostaria de consultar um horário";
+  const baseMessage = "Olá! Vim pelo site da Barbearia Velos e gostaria de consultar um horário";
   const normalizedName = serviceName && serviceName !== "general" ? serviceName : "";
   const message = normalizedName
     ? `${baseMessage} para ${normalizedName}.`

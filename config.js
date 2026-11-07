@@ -27,7 +27,7 @@ window.barbeariaConfig = {
     { day: "Segunda", open: "08:00", close: "19:00" },
     { day: "Terça", open: "08:00", close: "19:00" },
     { day: "Quarta", open: "08:00", close: "19:00" },
-    { day: "Quinta", open: "08:00", close: "19:00" },
+    { day: "Quinta", open: "08:00", close: "18:00" },
     { day: "Sexta", open: "08:00", close: "19:00" },
     { day: "Sábado", open: "08:00", close: "12:00" },
     { day: "Domingo", open: null, close: null }
