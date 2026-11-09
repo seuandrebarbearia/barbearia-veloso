@@ -1,11 +1,11 @@
-# Barbearia Velos
+# Barbearia Veloso
 
-Site institucional em HTML5, CSS3 e JavaScript puro para apresentação da Barbearia Velos em Bom Retiro, Santa Catarina.
+Site institucional em HTML5, CSS3 e JavaScript puro para apresentação da Barbearia Veloso em Bom Retiro, Santa Catarina.
 
 ## Observações importantes
 
 - O número `5549999521602` foi validado pela barbearia como contato de WhatsApp.
-- Os textos, estrutura e proposta visual foram desenvolvidos originalmente para a Velos, sem copiar marcas, textos ou layout de competidores.
+- Os textos, estrutura e proposta visual foram desenvolvidos originalmente para a Veloso, sem copiar marcas, textos ou layout de competidores.
 - A página foi construída com foco em acessibilidade, navegação por teclado, menu móvel, modal de galeria e integração com WhatsApp e rota do Google Maps.
 
 ## Imagens e licença
@@ -14,11 +14,11 @@ As imagens da galeria e do destaque visual são ilustrativas e foram obtidas de 
 
 - Fonte: Unsplash (imagens de livre uso para fins de visualização e conteúdo editorial, conforme termos do provedor)
 - Uso neste projeto: somente como imagens ilustrativas de cortes e ambiente de barbearia
-- Observação: as imagens não representam clientes, funcionários, fachada ou ambiente da Barbearia Velos sem autorização específica.
+- Observação: as imagens não representam clientes, funcionários, fachada ou ambiente da Barbearia Veloso sem autorização específica.
 
 ## Informações da empresa
 
-- Nome: Barbearia Velos
+- Nome: Barbearia Veloso
 - Endereço: Av. 24 de Outubro, 560 - Centro, Bom Retiro - SC
 - CEP: 88680-000
 - Telefone público: (49) 99952-1602

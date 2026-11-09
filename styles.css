@@ -141,7 +141,7 @@ button {
 }
 
 .brand-text small {
-  font-size: 0.66rem;
+  font-size: 0.82rem;
   color: var(--muted);
   letter-spacing: 0.28em;
   margin-top: 0.3rem;
@@ -647,6 +647,35 @@ button {
 .footer-bottom {
   border-top: 1px solid var(--line);
   padding-top: 1rem;
+  align-items: center;
+}
+
+.site-credit {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.site-credit strong {
+  color: var(--text);
+}
+
+.site-credit a {
+  border: 1px solid #8b0000;
+  border-radius: 999px;
+  background: #8b0000;
+  color: #fff !important;
+  padding: 0.3rem 0.75rem;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.site-credit a:hover,
+.site-credit a:focus-visible {
+  border-color: #a00000;
+  background: #a00000;
 }
 
 .floating-whatsapp {
@@ -832,6 +861,7 @@ button {
   }
 
   .brand-text small {
+    font-size: 0.74rem;
     letter-spacing: 0.18em;
   }
 
